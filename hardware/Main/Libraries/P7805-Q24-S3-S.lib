@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# P7805-Q24-S3-S
+#
+DEF P7805-Q24-S3-S U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "P7805-Q24-S3-S" 0 100 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 -300 350 150 0 1 0 f
+X Vin 1 -450 0 98 R 50 50 1 1 W
+X GND 2 0 -400 98 U 50 50 1 1 I
+X Vout 3 450 0 98 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

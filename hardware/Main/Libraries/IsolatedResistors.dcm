@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RN_3
+D Resistors Isolated
+K r res resistor
+$ENDCMP
+#
+$CMP RN_4
+D Resistors Isolated
+K r res resistor
+$ENDCMP
+#
+$CMP RN_5
+D Resistors Isolated
+K r res resistor
+$ENDCMP
+#
+$CMP RN_8
+D Resistors Isolated
+K r res resistor
+$ENDCMP
+#
+#End Doc Library

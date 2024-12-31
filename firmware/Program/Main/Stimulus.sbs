@@ -1,0 +1,101 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: MPLAB X
+## FORMAT:  v2.00.01
+## DEVICE:  DSPIC33FJ128GP802
+
+## PINREGACTIONS
+ms
+
+0
+AN0
+AN1
+VDD
+VSS
+AVDD
+AVSS
+--
+1
+1000mV
+0V
+3V
+0V
+3V
+0V
+--
+4
+1100mV
+10mV
+
+
+
+
+--
+6
+1200mV
+20mV
+
+
+
+
+--
+8
+1300mV
+30mV
+
+
+
+
+--
+&
+## ADVPINREGACTIONS
+--
+&
+--
+COND1
+Any
+
+
+
+0
+cyc
+
+--
+&
+## CLOCK
+LS_CLK
+SOSCI
+Always
+Never
+Low
+1
+1
+
+--
+HS_CLK
+OSC1
+Always
+Never
+Low
+1
+1
+
+--
+&
+## STIMULUSFILE
+&
+## RESPONSEFILE
+&
+## ASYNCH
+Pin
+RP3
+Toggle
+
+Start Toggle
+-1
+--
+&
+## ADVANCEDSCL
+
+1
+&

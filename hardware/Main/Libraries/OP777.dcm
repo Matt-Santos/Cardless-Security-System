@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OP777
+D Precision single rail-to-rail output amplifier
+K OP777
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP777_727_747.pdf
+$ENDCMP
+#
+#End Doc Library

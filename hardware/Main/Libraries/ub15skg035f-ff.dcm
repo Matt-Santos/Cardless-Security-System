@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UB15SKG035F-FF
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F http://www.nkkswitches.com/pdf/ubnonilluminated.pdf
+$ENDCMP
+#
+#End Doc Library

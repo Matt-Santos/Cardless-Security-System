@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP P7805-Q24-S3-S
+D NON-ISOLATED SWITCHING REGULATOR
+K DC Regulator
+F https://www.cui.com/product/resource/p7805-s.pdf
+$ENDCMP
+#
+#End Doc Library

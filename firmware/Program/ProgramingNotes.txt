@@ -1,0 +1,45 @@
+//Important MPU Notes for Report
+
+//General Details
+- MPU setup to run at 40MHz through use of a PLL
+- Uses a Status Register to Monitor Progress
+- Currently Using Fixed Point Arithmetic!
+- Takes approximately 6 cycles (150ns) per fractional multiplication
+
+
+
+//ADC1 Setup
+- Uses Simultaneous Sampling
+- Uses DMA for quick transferring to SRAM
+- Conversion Triggered by Timer3 Compare Event
+- Data Transfered in a Ping-Pong Mode with Two alternating Output Buffers
+- Measurement Accuracy is 10bit giving +/- 3mV at [0V,3V] limits
+- SampleRate is Easily Adjustable between 10Hz and 625kHz
+- Temperature is currently only sampled once per DMA block
+
+//Temperature Averaging
+- Performed using the DSP Engine
+- Calculation accuracy of +/- 0.04mV
+- Each Sample Takes 10 cycles (250ns) to process
+
+//Preprocessing Setup
+-
+
+
+
+
+//Notes for Report
+- Greatest Challenge: (Conversion to Fixed Point Arithmetic)
+    - You see in Matlab/Octave you have a supercomputer so you just use floats for everything
+    the problem is that float math is really slow on a microcontroller and it was not until
+    after I designed the algorithm that I realized this. I essentially had to rip apart large
+    sections and completely redesign them using one of the most confusing data types I have had
+    the horror of working with ... Fixed point math...
+
+
+//Things to do Before Trying on Chip Itself
+- uncomment sleep and remove forced start button press
+- uncomment delay after start button press
+- Ensure SampleRate = 500
+- Set ECGLength = 2560
+- Set DMA0BufferSize = 32

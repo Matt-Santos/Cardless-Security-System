@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Capstone Cardless Security System" company="University of Windsor" webLink="https://github.com/Matt-Santos/Capstone" view-date="2018-01-01" view-index="0" gantt-divider-location="293" resource-divider-location="320" version="2.8.5" locale="en_US">
+    <description><![CDATA[Development of a Cardless Security System for Offices based on biometic ECG signals.]]></description>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="235" order="0"/>
+        <field id="tpd5" name="End date" width="54" order="1"/>
+        <timeline><![CDATA[953]]></timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="220" order="0"/>
+        <field id="1" name="Default role" width="96" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Planning" color="#8cb6ce" meeting="false" start="2018-01-04" duration="52" complete="100" expand="true">
+            <task id="1" name="Idea Selection" meeting="false" start="2018-01-04" duration="5" complete="100" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" name="Approval" color="#8cb6ce" meeting="false" start="2018-01-09" duration="5" complete="100" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+                <depend id="1044" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" name="Proposal" meeting="false" start="2018-01-14" duration="42" complete="100" expand="true">
+                <task id="9" name="Gather Refrences" color="#8cb6ce" meeting="false" start="2018-01-14" duration="17" complete="100" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="8" name="Define Goals" color="#8cb6ce" meeting="false" start="2018-01-29" duration="9" complete="100" thirdDate="2018-01-29" thirdDate-constraint="1" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="1044" name="Establish Timeline" color="#8cb6ce" meeting="false" start="2018-01-29" duration="9" complete="100" thirdDate="2018-01-29" thirdDate-constraint="1" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="1585" name="Disscus Budget" meeting="false" start="2018-02-02" duration="1" complete="100" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="1517" name="Generate Tasks" meeting="false" start="2018-02-03" duration="9" complete="100" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="1518" name="Divide Tasks" meeting="false" start="2018-02-07" duration="5" complete="100" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="2099" name="Approve Proposal" meeting="false" start="2018-02-12" duration="13" complete="100" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="7" name="Submit Proposal" color="#8cb6ce" meeting="true" start="2018-02-25" duration="0" complete="100" thirdDate="2018-02-25" thirdDate-constraint="1" expand="true"/>
+            </task>
+        </task>
+        <task id="6" name="Circuit Schematic Design" meeting="false" start="2018-02-12" duration="47" complete="94" expand="true">
+            <depend id="1347" type="2" difference="0" hardness="Strong"/>
+            <task id="1609" name="Generate Block Diagram" meeting="false" start="2018-02-12" duration="5" complete="100" expand="true">
+                <depend id="1610" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1734" name="Power System" meeting="false" start="2018-02-17" duration="30" complete="100" expand="true">
+                <depend id="1610" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1735" name="Sensor Circuitry" meeting="false" start="2018-02-17" duration="30" complete="90" expand="true">
+                <depend id="1610" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1736" name="MPU and DSP Processing" meeting="false" start="2018-02-17" duration="30" complete="100" expand="true">
+                <depend id="1610" type="2" difference="0" hardness="Strong"/>
+                <depend id="2472" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2388" name="Additional Features" meeting="false" start="2018-03-19" duration="7" complete="70" expand="true">
+                <depend id="1610" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1610" name="Finish Circuit Design" color="#8cb6ce" meeting="false" start="2018-03-26" duration="5" complete="80" thirdDate="2018-03-26" thirdDate-constraint="1" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="5" name="Mechanical Design" meeting="false" start="2018-03-19" duration="12" complete="80" expand="true">
+            <depend id="1347" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2472" name="Design Biometric Algorithm" color="#8cb6ce" meeting="false" start="2018-03-19" duration="21" complete="100" thirdDate="2018-04-01" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="Simulations" color="#8cb6ce" meeting="false" start="2018-03-31" duration="32" complete="100" thirdDate="2018-04-16" thirdDate-constraint="0" expand="true"/>
+        <task id="1440" name="Prepare Progress Report" meeting="false" start="2018-05-02" duration="7" complete="100" expand="true">
+            <depend id="1347" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1347" name="Submit Progress Report" color="#8cb6ce" meeting="true" start="2018-05-09" duration="0" complete="100" thirdDate="2018-05-09" thirdDate-constraint="1" expand="true"/>
+        <task id="4" name="Part Selection" color="#8cb6ce" meeting="false" start="2018-05-10" duration="7" complete="30" thirdDate="2018-05-10" thirdDate-constraint="1" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <depend id="2482" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2482" name="Write Microprocessor Code" color="#8cb6ce" meeting="false" start="2018-05-17" duration="20" complete="5" thirdDate="2018-05-31" thirdDate-constraint="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" name="Sectioned Testing" color="#8cb6ce" meeting="false" start="2018-05-17" duration="20" complete="0" thirdDate="2018-05-31" thirdDate-constraint="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="PCB Layout Design" color="#8cb6ce" meeting="false" start="2018-06-01" duration="5" complete="0" thirdDate="2018-05-04" thirdDate-constraint="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" name="Project Verification" color="#8cb6ce" meeting="false" start="2018-06-06" duration="5" complete="0" thirdDate="2018-04-30" thirdDate-constraint="0" expand="true">
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="17" name="Prototype Construction" color="#8cb6ce" meeting="false" start="2018-06-11" duration="7" complete="0" thirdDate="2018-06-11" thirdDate-constraint="1" expand="true">
+            <depend id="2485" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2485" name="Gather Samples" meeting="false" start="2018-06-18" duration="12" complete="0" expand="true"/>
+        <task id="2455" name="Final Testing" color="#8cb6ce" meeting="false" start="2018-06-25" duration="23" complete="0" expand="true"/>
+        <task id="30" name="Prep For Presentation" color="#000000" meeting="false" start="2018-07-18" duration="16" complete="0" thirdDate="2018-07-12" thirdDate-constraint="1" expand="true">
+            <task id="970" name="Organize Presentation Materials" color="#8cb6ce" meeting="false" start="2018-07-18" duration="3" complete="1" expand="true">
+                <depend id="953" type="2" difference="0" hardness="Strong"/>
+                <depend id="2282" type="2" difference="0" hardness="Strong"/>
+                <depend id="2350" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2282" name="Create Presentation Materials" color="#8cb6ce" meeting="false" start="2018-07-21" duration="3" complete="0" expand="true">
+                <depend id="953" type="2" difference="0" hardness="Strong"/>
+                <depend id="2350" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2350" name="Practise Presentation" color="#8cb6ce" meeting="false" start="2018-07-24" duration="3" complete="0" expand="true">
+                <depend id="953" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="953" name="Final Presentation" color="#8cb6ce" meeting="false" start="2018-07-27" duration="7" complete="0" thirdDate="2018-07-27" thirdDate-constraint="1" expand="true"/>
+        </task>
+        <task id="2484" name="Write Final Report" color="#8cb6ce" meeting="false" start="2018-07-27" duration="7" complete="0" expand="true"/>
+        <task id="2486" name="Submit Final Report" color="#8cb6ce" meeting="true" start="2018-08-03" duration="0" complete="0" thirdDate="2018-08-03" thirdDate-constraint="1" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="2" name="Arezoo Emadi" function="Default:1" contacts="Arezoo.Emadi@uwindsor.ca" phone=""/>
+        <resource id="3" name="Matthew Santos" function="1" contacts="santosm@uwindsor.ca" phone=""/>
+        <resource id="0" name="Robert Golberski" function="1" contacts="goleber@uwindsor.ca" phone=""/>
+        <resource id="1" name="Zuwei Li" function="1" contacts="li18b@uwindsor.ca" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Student"/>
+    </roles>
+</project>

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMDA15TR
+D TVS Diode
+K diode
+F https://www.digikey.ca/product-detail/en/smc-diode-solutions/SMDA15TR/1655-1914-1-ND/8019616
+$ENDCMP
+#
+#End Doc Library

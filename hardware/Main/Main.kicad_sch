@@ -1,0 +1,814 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e4fb864b-958c-478c-9cec-5b9104033a36")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 132.08 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6784a5a6-bbec-4395-b94d-831dfeff9f3b")
+	)
+	(no_connect
+		(at 166.37 121.92)
+		(uuid "56cb3175-a410-4a22-b68b-61c3fd5cbe8a")
+	)
+	(no_connect
+		(at 134.62 121.92)
+		(uuid "afe0eed3-491c-4e00-a4d0-63ddf4c20a49")
+	)
+	(no_connect
+		(at 134.62 118.11)
+		(uuid "cf76b9ea-84c0-42e2-ae80-aceb281496d7")
+	)
+	(wire
+		(pts
+			(xy 137.16 74.93) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04068e67-62d8-43ec-ae43-a7bf842f936a")
+	)
+	(wire
+		(pts
+			(xy 74.93 82.55) (xy 74.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08696ea0-1015-45e3-8505-940e6174cb53")
+	)
+	(wire
+		(pts
+			(xy 132.08 87.63) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09309d87-8175-4612-933b-1e6309c55739")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c22147f-46e1-421f-a7ec-d29b7f9ebc8f")
+	)
+	(wire
+		(pts
+			(xy 163.83 110.49) (xy 180.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1ba820-fad1-42a9-bd8a-f0323149ac26")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 74.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1285b5d6-a7d9-48d1-98f7-ecc2989b7c79")
+	)
+	(wire
+		(pts
+			(xy 78.74 114.3) (xy 92.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15399932-c89e-4234-a27e-aed205f664da")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 166.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b460603-57af-4ca8-8ad8-3059e2512eca")
+	)
+	(wire
+		(pts
+			(xy 214.63 107.95) (xy 214.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c367a16-1179-484d-aab1-d9fbae34ccff")
+	)
+	(wire
+		(pts
+			(xy 222.25 120.65) (xy 222.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22969f69-dffe-43ec-be82-ea51765c9a05")
+	)
+	(wire
+		(pts
+			(xy 134.62 118.11) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35459c24-e5aa-4896-bf20-af3930628463")
+	)
+	(wire
+		(pts
+			(xy 163.83 106.68) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6f9b1d-d602-46f7-a8a9-e4edf653fadb")
+	)
+	(wire
+		(pts
+			(xy 214.63 74.93) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40885cc6-6c6a-4bdc-84b0-1fe16bd916b6")
+	)
+	(wire
+		(pts
+			(xy 207.01 107.95) (xy 214.63 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5170a7d7-c9f8-4a1a-be0b-b49deac9bf63")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 132.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bddadb-f0e8-483b-bbad-0fe38023a51e")
+	)
+	(wire
+		(pts
+			(xy 207.01 120.65) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9f99f2-2f9a-45bb-9d09-20bbcab4fbd9")
+	)
+	(wire
+		(pts
+			(xy 172.72 121.92) (xy 180.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71156edf-be63-4634-8f6c-16e01a8781d5")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4e95b3-cb3e-4d63-8ada-6bc40422851e")
+	)
+	(wire
+		(pts
+			(xy 207.01 114.3) (xy 218.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ba0644-768a-42a8-b693-509a093640e2")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.95) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874cb0e9-b2a9-457e-937c-79486b6cf8a2")
+	)
+	(wire
+		(pts
+			(xy 74.93 120.65) (xy 92.71 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902b51b6-3be4-4556-bbe0-7126fa5aff9a")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96808061-7daa-41af-b44d-d616b1ed8f5d")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9893b329-ab39-4cbd-9f0b-b8c731078bce")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63) (xy 132.08 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990b1d02-27ee-46bb-a18f-4ace3b3e80ba")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 172.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f12686-45cd-4fcb-a44d-23da08acf35c")
+	)
+	(wire
+		(pts
+			(xy 218.44 114.3) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfd6dd7-0b77-4bfa-93ec-bbcf51cae904")
+	)
+	(wire
+		(pts
+			(xy 119.38 110.49) (xy 132.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b185f732-185b-4e46-b8f3-762ac2275ca8")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0ee227-c81e-403f-83db-47ef79d96a11")
+	)
+	(wire
+		(pts
+			(xy 222.25 87.63) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c126f0f6-1c28-40e6-be21-02fda2803912")
+	)
+	(wire
+		(pts
+			(xy 134.62 121.92) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2bbd25-2af6-4fb7-9d64-f4a2b2954cc9")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7109910-d34d-4c6c-af9d-81cac859f3e9")
+	)
+	(wire
+		(pts
+			(xy 82.55 74.93) (xy 82.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1b6616-734e-4662-8346-8aa6ba2b1e1d")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 78.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88793e5-4c0d-4f93-87c8-138285ab89f8")
+	)
+	(wire
+		(pts
+			(xy 163.83 118.11) (xy 180.34 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaee8861-eeb9-4af7-8316-dae86f90e68a")
+	)
+	(text "Cardless Security System Block Level Connections Design by Capstone Group #9\n- Analog Front End handles analog sensor measurement\n- MPU performs analysis and drives the peripherals\n- Power System supplies regulated voltages and actuates the door lock\n- Power Relay handles system start button activation"
+		(exclude_from_sim no)
+		(at 179.07 179.07 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2c55a88-6f69-4731-8ad1-93f8413291fb")
+	)
+	(sheet
+		(at 137.16 104.14)
+		(size 26.67 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005a8aea38")
+		(property "Sheetname" "MPU"
+			(at 137.16 103.0601 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPU.kicad_sch"
+			(at 137.16 125.3392 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ECG_Signal" input
+			(at 137.16 110.49 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "5ac57dd3-3f2b-47b5-a908-e4115503cb2b")
+		)
+		(pin "VDD" input
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "36935219-5773-40d3-9a1f-76edde80be15")
+		)
+		(pin "GND" input
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "ef50000f-084d-4262-a748-0ffb16cd2978")
+		)
+		(pin "START" input
+			(at 137.16 106.68 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "9abeafec-2b66-400f-85a6-ace4eb3be1cd")
+		)
+		(pin "AUX1" bidirectional
+			(at 137.16 114.3 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "670f5146-64bf-4ab0-adb1-d2cecf2da3b0")
+		)
+		(pin "AUX2" bidirectional
+			(at 137.16 118.11 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "ee5c0e81-919f-409f-8308-a7124ce8e2be")
+		)
+		(pin "AUX3" bidirectional
+			(at 137.16 121.92 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "64b718d2-a738-4975-8ff2-cf8237efda72")
+		)
+		(pin "AUX4" output
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "a48568db-bd72-4ee2-baf1-e58e54f62cc7")
+		)
+		(pin "AUX5" output
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "ade66c9b-1612-4e77-9388-5647d2e8cbc2")
+		)
+		(instances
+			(project "Main"
+				(path "/e4fb864b-958c-478c-9cec-5b9104033a36"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 104.14)
+		(size 26.67 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005af78115")
+		(property "Sheetname" "PowerSystem"
+			(at 180.34 103.0601 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSystem.kicad_sch"
+			(at 180.34 125.3392 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Lock_Trigger" input
+			(at 180.34 118.11 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "3e15c4ca-878b-42c1-9891-4fb8a4f4d2f7")
+		)
+		(pin "GND_D" output
+			(at 180.34 110.49 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "d756f2dd-c70a-432b-b837-af7dde8b4044")
+		)
+		(pin "GND_A" output
+			(at 207.01 114.3 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "4d9c4090-4820-4e3d-8a8d-e617c13bf722")
+		)
+		(pin "3.3V" output
+			(at 180.34 106.68 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "72d8e0be-09ba-4464-ac8e-bb540aa62b39")
+		)
+		(pin "5V" output
+			(at 207.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "126331b4-a278-4d49-a7ff-96a8ba094566")
+		)
+		(pin "-5V" output
+			(at 207.01 120.65 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "22fcf494-a5e4-4292-8b0d-19bc1fd7a72f")
+		)
+		(pin "ECG_Signal" input
+			(at 180.34 121.92 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "adc6b339-db70-4b76-8696-635cb718472e")
+		)
+		(instances
+			(project "Main"
+				(path "/e4fb864b-958c-478c-9cec-5b9104033a36"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 104.14)
+		(size 26.67 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005affd4f3")
+		(property "Sheetname" "AnalogFrontEnd"
+			(at 92.71 103.0601 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogFrontEnd.kicad_sch"
+			(at 92.71 125.3392 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 92.71 114.3 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "d47b66a9-300a-43a3-9e66-1779c7de6615")
+		)
+		(pin "Temp" output
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "f8a2c976-cc52-4bb8-8248-8261982562a4")
+		)
+		(pin "ECG_Signal" output
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "c987d79e-011f-442b-9898-d6b7080227cc")
+		)
+		(pin "Vcc" input
+			(at 92.71 107.95 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "8406ea4e-c26a-4dac-adaf-a834ab35beaa")
+		)
+		(pin "Vee" input
+			(at 92.71 120.65 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "d1d19187-12ff-46a9-96a4-28a4c02d7593")
+		)
+		(instances
+			(project "Main"
+				(path "/e4fb864b-958c-478c-9cec-5b9104033a36"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 71.12)
+		(size 26.67 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b128d15")
+		(property "Sheetname" "StartRelay"
+			(at 137.16 70.0401 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "StartRelay.kicad_sch"
+			(at 137.16 92.3192 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(pin "START" output
+			(at 137.16 87.63 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "159b74a1-48ba-4c49-b060-5ba72c31a900")
+		)
+		(pin "5V" input
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "bb5aaba4-4e5c-4ddd-8d18-d58756c47fa0")
+		)
+		(pin "GND_A" input
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "e5930d1e-13d1-4ecb-8846-6cdb396bc21f")
+		)
+		(pin "-5V" input
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right)
+			)
+			(uuid "2086d399-2f9f-4b29-af9b-d45c4269aef1")
+		)
+		(pin "VEE" output
+			(at 137.16 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "181faf89-e193-45d8-bf6e-8edc9914db05")
+		)
+		(pin "VCC" output
+			(at 137.16 74.93 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "2a9ff8df-26f9-4095-a5db-c1497701ff96")
+		)
+		(pin "GND" output
+			(at 137.16 78.74 180)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left)
+			)
+			(uuid "a80bdb29-1aa7-4686-9545-e42fff0fdf14")
+		)
+		(instances
+			(project "Main"
+				(path "/e4fb864b-958c-478c-9cec-5b9104033a36"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

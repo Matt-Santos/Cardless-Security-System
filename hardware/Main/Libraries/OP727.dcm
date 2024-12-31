@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OP727
+D Quad, Single Supply, Precision Op Amps
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP777_727_747.pdf
+$ENDCMP
+#
+#End Doc Library

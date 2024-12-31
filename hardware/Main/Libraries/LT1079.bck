@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1079CN
+D Quad, Single Supply, Precision Op Amps
+F http://www.analog.com/media/en/technical-documentation/data-sheets/10789fe.pdf?domain=www.linear.com
+$ENDCMP
+#
+#End Doc Library
