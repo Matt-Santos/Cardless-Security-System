@@ -46,6 +46,3 @@ See [Gantt Chart](/documents/reports/Proposal/ProjectSchedule.pdf)
 # Supervisors
 * Dr. Emadi
 * Dr. Mirhassani
-
-# Acknowledgments
-*
